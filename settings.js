@@ -13,7 +13,7 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: process.env.SESSION_ID || "", // Your bot's session ID 
+  SESSION_ID: process.env.SESSION_ID || "suho~6B9jBL4D#43C3RA4yyM5CBKT_Pa8rD-_b8SsEVxn2B6BKKJHj9D4", // Your bot's session ID 
   PREFIX: getConfig("PREFIX") || ",", // Command prefix (e.g., ., /, !, *)
   CHATBOT: getConfig("CHATBOT") || "on", // Chatbot mode: on/off
   BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "Makima-XD", // Bot display name
@@ -22,14 +22,14 @@ module.exports = {
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys", // Baileys version
 
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "27649342626", // Owner WhatsApp number
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "233595280924", // Owner WhatsApp number
   OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Dev Sung", // Owner name
-  DEV: process.env.DEV || "27649342626", // Developer contact number
+  DEV: process.env.DEV || "233595280924", // Developer contact number
   DEVELOPER_NUMBER: '27649342626@s.whatsapp.net', // Developer WhatsApp ID
 
   // ===== AUTO-RESPONSE SETTINGS =====
   AUTO_REPLY: process.env.AUTO_REPLY || "false", // Enable auto-reply
-  AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false", // Reply to status updates?
+  AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true", // Reply to status updates?
   AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Just seen ur status 😆 🤖*", // Status reply message
   READ_MESSAGE: process.env.READ_MESSAGE || "false", // Mark messages as read automatically?
   REJECT_MSG: process.env.REJECT_MSG || "*📵 Calls are not allowed on this number unless you have permission. 🚫*", // Message on rejected call
